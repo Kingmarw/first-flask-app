@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page }}</title>
+</head>
+<body>
+    <h1>welcome {{ session['user'] }}</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, sunt!</p>
+    <a href="{{ url_for('login') }}">press here to login</a>
+    <br>
+    <a href="{{ url_for('reg') }}">press here to register</a>
+</body>
+</html>

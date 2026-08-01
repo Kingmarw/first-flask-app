@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/err.css') }}">
+    <title>{{ page }}</title>
+</head>
+<body>
+    <h2>Error</h2>
+    <p>Please check your username and password and try again.</p>
+    <p>Back to <a href="{{ url_for('login') }}">login</a> or <a href="{{ url_for('reg') }}">register</a></p>
+</body>
+</html>

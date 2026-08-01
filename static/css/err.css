@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
+a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
